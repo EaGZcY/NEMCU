@@ -99,12 +99,9 @@ namespace NEMCU
             else
             {
                 materialCheckbox3.Checked = true;
-            }
-            label1.Text = "提示:1.本程序需启动过一次游戏才能正常使用\r\n        2.本程序会保留您使用的材质包及光影，无需再次复制和启用\r\n        3.打开永久隐藏后会在下次启动生效，如需取消请删除\r\n        " + materialTextBox29.Text + "\\nemcusettings.txt";
-            if (textBox2.Lines[2] == "foreverhide=1")
-            {
                 this.Hide();
             }
+            label1.Text = "提示:1.本程序需启动过一次游戏才能正常使用\r\n        2.本程序会保留您使用的材质包及光影，无需再次复制和启用\r\n        3.打开永久隐藏后会在下次启动生效，如需取消请删除\r\n        " + materialTextBox29.Text + "\\nemcusettings.txt";
             timer1.Enabled = true;
         }
         public static string Getinstalllocation()
@@ -220,10 +217,18 @@ namespace NEMCU
                     else
                     {
                         materialLabel6.Text = "未启动";
-                        if (materialCheckbox2.Checked)
+                        if (textBox2.Lines[2] == "foreverhide=1")
                         {
-                            this.Show();
+                            this.Hide();
                         }
+                        else
+                        {
+                            if (materialCheckbox2.Checked)
+                            {
+                                this.Show();
+                            }
+                        }
+
                         if (copy == 1)
                         {
                             copy = 0;
@@ -349,7 +354,7 @@ namespace NEMCU
                 FileStream fsnv = new FileStream(materialTextBox29.Text + "\\nemcusettings.txt", FileMode.Open, FileAccess.Read);
                 StreamReader srnv = new StreamReader(fsnv);
                 ls1 = srnv.ReadToEnd();
-                ls1 = ls1.Replace("foreverhide=1", "foreverhide=0");
+                ls1 = ls1.Replace("foreverhide=0", "foreverhide=1");
                 srnv.Close();
                 fsnv.Close();
                 FileStream fsnv2 = new FileStream(materialTextBox29.Text + "\\nemcusettings.txt", FileMode.Open, FileAccess.Write);
