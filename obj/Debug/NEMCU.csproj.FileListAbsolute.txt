@@ -1,0 +1,12 @@
+D:\Files\Files\NEMCU\NEMCU\bin\Debug\NEMCU.exe.config
+D:\Files\Files\NEMCU\NEMCU\bin\Debug\NEMCU.exe
+D:\Files\Files\NEMCU\NEMCU\bin\Debug\NEMCU.pdb
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.csproj.AssemblyReference.cache
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.csproj.SuggestedBindingRedirects.cache
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.Form1.resources
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.Properties.Resources.resources
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.csproj.GenerateResource.cache
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.csproj.CoreCompileInputs.cache
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.csproj.Fody.CopyLocal.cache
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.exe
+D:\Files\Files\NEMCU\NEMCU\obj\Debug\NEMCU.pdb
