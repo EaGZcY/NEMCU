@@ -205,6 +205,7 @@ namespace NEMCU
                         if (copy == 0)
                         {
                             CopyFolder(materialTextBox23.Text, materialTextBox24.Text);
+                            CopyFolder(materialTextBox211.Text, materialTextBox210.Text);
                             System.IO.File.Copy(materialTextBox26.Text, materialTextBox25.Text, isrewrite);
                             System.IO.File.Copy(materialTextBox28.Text, materialTextBox27.Text, isrewrite);
                             copy = 1;
@@ -233,6 +234,7 @@ namespace NEMCU
                         {
                             copy = 0;
                             CopyFolder(materialTextBox24.Text, materialTextBox23.Text);
+                            CopyFolder(materialTextBox210.Text, materialTextBox211.Text);
                             System.IO.File.Copy(materialTextBox25.Text, materialTextBox26.Text, isrewrite);
                             System.IO.File.Copy(materialTextBox27.Text, materialTextBox28.Text, isrewrite);
                         }
