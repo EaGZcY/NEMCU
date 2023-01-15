@@ -101,7 +101,7 @@ namespace NEMCU
                 materialCheckbox3.Checked = true;
                 this.Hide();
             }
-            label1.Text = "提示:1.本程序需启动过一次游戏才能正常使用\r\n        2.本程序会保留您使用的材质包及光影，无需再次复制和启用\r\n        3.打开永久隐藏后会在下次启动生效，如需取消请删除\r\n        " + materialTextBox29.Text + "\\nemcusettings.txt";
+            label1.Text = "提示:1.开启本程序会自动启动网易我的世界客户端\r\n        2.本程序会保留您使用的材质包及光影，无需再次复制和启用\r\n        3.打开永久隐藏后会在下次启动生效，如需取消请删除\r\n        " + materialTextBox29.Text + "\\nemcusettings.txt";
             timer1.Enabled = true;
         }
         public static string Getinstalllocation()

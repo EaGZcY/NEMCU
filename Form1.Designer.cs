@@ -603,7 +603,7 @@
             this.ShowIcon = false;
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NEMCU By EaGZcY";
+            this.Text = "NEMCU";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
